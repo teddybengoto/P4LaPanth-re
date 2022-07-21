@@ -90,10 +90,10 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
+/*.texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
-}
+}*/
 
 .b-parallax {
     background-attachment: fixed;
@@ -382,14 +382,15 @@ a:hover {
 }
 
 .icon-md {
-    /*font-size: 30px!important;*/
-    font-size: 10px;
+    font-size: 4rem!important;
 }
 .text-description{
     
     color: #6F6F6F!important;
     font-size: 25px;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 .text-citation{
@@ -397,6 +398,8 @@ a:hover {
     width: 75%;
     text-align: center;
     margin-left: 12.5%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     font-family: "helvetica";
     color: #5A5A5A!important;
 
@@ -736,7 +739,7 @@ a {
 }
 
 p {
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
